@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">trivago</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="8bfb7f6ebf88b0b234195ce0aa8068153c186fea466c099400542aebeb6d8f59.html">Reserve A Hotel In Trivago</a></span>
+                > <span class="truncate-60"><a
+                    href="5f7eda8e29ea543b5ec0028f4efe17826e7aa15ac2d24fa88a53067e6df629b7.html">Reserve the cheapest hotel </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-10-2019 18:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Reserve A Hotel In Trivago </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I as a Trivago user<br />
+I want to reserve a hotel<br />
+I want satellite tv in the room and a punctuation higher 7.5 or good<br />
+To verify the condition of the hotel (excellent, very good or good).
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Reserve the cheapest hotel
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the actor looks for &lt;CITY&gt; and the date on which her wants to stay<br>And the actor wants her room with amenities and a higher score range of Good<br>When the actor wants to choose the cheapest room<br>Then To verify the condition of the hotel: excellent, very good or good</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="accf9f3103db1c032aa43bcc6ec1e7cbf0764526093e8f1bb98a26dcfc62ddcb.png" title="Example #1: {CITY=Medellin}" width="1034"/>
+                <img src="9912302ab95e2d502a4bdfacd03e01aed37723f022a2f5fdb2fe9b71d45245b1.png" title="Given the actor looks for Medellin and the date on which her wants to stay" width="1034"/>
+                <img src="f8fac47ecab583050bed7f083dd40f41a14231658b9e0609f051da4b0ed1eaa1.png" title="Sofia opens the Trivago home page" width="1034"/>
+                <img src="f8fac47ecab583050bed7f083dd40f41a14231658b9e0609f051da4b0ed1eaa1.png" title="Sofia clicks on City" width="1034"/>
+                <img src="5ada2ad76d2e0285568f7b9b3b42b7548fe19eb35e740a66cf2e0bf9b87e1184.png" title="Sofia clicks on City" width="1034"/>
+                <img src="5ada2ad76d2e0285568f7b9b3b42b7548fe19eb35e740a66cf2e0bf9b87e1184.png" title="Sofia enters 'Medellin' into City" width="1034"/>
+                <img src="3a461e6cf3969d365ca9db829470e596848f9c409f29152b7f2e3b63dc733c06.png" title="Sofia enters 'Medellin' into City" width="1034"/>
+                <img src="255af986e454bfbf07051521ba52645fe1b3b2435d4452fe92590c3789400fdf.png" title="Sofia clicks on Date_Of_Check_In" width="1034"/>
+                <img src="36112d621107ff752c8baa64222150b89268cdaaaf1045ac7725b9bf1487d380.png" title="Sofia clicks on Date_Of_Check_In" width="1034"/>
+                <img src="36112d621107ff752c8baa64222150b89268cdaaaf1045ac7725b9bf1487d380.png" title="Sofia clicks on Date_Of_Check_Out" width="1034"/>
+                <img src="3e3429eddbe6c2727966e1dd0e29f0bdb591946d5d8ad5edb6de4aabc87e39d1.png" title="Sofia clicks on Date_Of_Check_Out" width="1034"/>
+                <img src="57b6001b6a45dee637e3a56959f78ece4e3993016f6914c206b2a3ec608f8c02.png" title="And the actor wants her room with amenities and a higher score range of Good" width="1034"/>
+                <img src="9972a3fa2489a65fe7ec8480b8882c6561639a4b2a3eab87b0f4fc79382f59a0.png" title="And the actor wants her room with amenities and a higher score range of Good" width="1034"/>
+                <img src="f607aa597fabc1d225910596a6d4e1f0b3afa5c4aa9827e1afff74aa5422ae4b.png" title="Sofia clicks on Room_Amenities" width="1034"/>
+                <img src="a7e18fa352a698f3e983850ec7e46345ab8471a2a563e72889883e26be98da87.png" title="Sofia clicks on Room_Amenities" width="1034"/>
+                <img src="a7e18fa352a698f3e983850ec7e46345ab8471a2a563e72889883e26be98da87.png" title="Sofia clicks on Satellital_Tv" width="1034"/>
+                <img src="8c814583bed1bb1808bcc2c0e067d32f3a72b300e3c68ee476da35ca2b9919b4.png" title="Sofia clicks on Satellital_Tv" width="1034"/>
+                <img src="6a2c605e748932890e0ea11afc6cd3d8b59faf0646ff0d7c44b33dfc563d1670.png" title="Sofia clicks on Ready" width="1034"/>
+                <img src="848322fca973e47b66e8e527ae5231c27a44e3ccb86600495afca812deb13680.png" title="Sofia clicks on Ready" width="1034"/>
+                <img src="fb01d0407d483c92c049894b07dbc1139fa4cab24bcac40442cc40663c49b430.png" title="When the actor wants to choose the cheapest room" width="1034"/>
+                <img src="c3f588735f2c09b9a74f273dc8d6e5369ba931d3d41fc598cf20e203b5324395.png" title="When the actor wants to choose the cheapest room" width="1034"/>
+                <img src="fb01d0407d483c92c049894b07dbc1139fa4cab24bcac40442cc40663c49b430.png" title="Sofia clicks on Order_Bt" width="1034"/>
+                <img src="349f448d6d58eb8ef34ce5bd81d0e507111a53963ccb64562b2d7aeb45397232.png" title="Sofia clicks on Order_Bt" width="1034"/>
+                <img src="349f448d6d58eb8ef34ce5bd81d0e507111a53963ccb64562b2d7aeb45397232.png" title="Sofia clicks on Just_Price" width="1034"/>
+                <img src="39a073804014fa882024fae467be272aca708b0320c930a7306032b8e281af0a.png" title="Sofia clicks on Just_Price" width="1034"/>
+                <img src="c7632f7d67e45aa504473e9b0b818124c9a7a58518a98c69e06c114c96f2d677.png" title="Then To verify the condition of the hotel: excellent, very good or good" width="1034"/>
+                <img src="97288663b590942720535b570117f1f553a478bf8f0edd3d05546d0cf64b062e.png" title="Then To verify the condition of the hotel: excellent, very good or good: <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>
