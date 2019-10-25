@@ -1,18 +1,15 @@
 package com.accenture.automatizacion.stepdefinitions;
 
-import java.nio.channels.SeekableByteChannel;
 
 import org.openqa.selenium.WebDriver;
 
 import com.accenture.automatizacion.tasks.SearchTheRoomWith;
-import com.accenture.automatizacion.tasks.Verify;
 import com.accenture.automatizacion.tasks.OpenTheBrowser;
 import com.accenture.automatizacion.tasks.SearchAHotel;
 import com.accenture.automatizacion.questions.ObtainedResult;
 import com.accenture.automatizacion.tasks.Choose;
 import com.accenture.automatizacion.userinterfaces.TrivagoHomePage;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -63,8 +60,8 @@ public class ReserveAHotelStepDefinitions {
 
 	@Then("^To verify the condition of the hotel: excellent, very good or good$")
 	public void toVerifyTheConditionOfTheHotelExcellentVeryGoodOrGood(){
-	   // Sofia.should(Seet);(Verify.Punctuation());
-		//Sofia.should(seeThat(ObtainedResult.at()));
+		//Sofia.should(Seet);(Verify.Punctuation());
+		Sofia.should(seeThat(ObtainedResult.successfully()));
 	    
 	}
 

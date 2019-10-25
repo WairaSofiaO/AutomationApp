@@ -18,7 +18,7 @@ public class Choose implements Task {
 				Click.on(TrivagoHomePage.ORDER_BY),
 				Click.on(TrivagoHomePage.JUST_PRICE)
 				);
-		actor.asksFor(ObtainedResult.at());//Imprimo valores
+		//actor.asksFor(ObtainedResult.successfully());//Imprimo valores
 	}
 	 
 	public static Choose TheCheapestRoom() {

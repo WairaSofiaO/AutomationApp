@@ -22,11 +22,9 @@ public class SearchTheRoomWith implements Task {
 				Click.on(TrivagoHomePage.ROOM_AMENITIES),
 				Click.on(TrivagoHomePage.SATELLITAL_TV),
 				Click.on(TrivagoHomePage.READY)
-				//Click.on(TrivagoHomePage.PUNCTUATION_FILTER),
-				//Click.on(TrivagoHomePage.PUNCTUATION_GOOD)
 				);
 		
-		TrivagoHomePage.PUNCTUATION_FILTER.resolveFor(actor).click();
+		//TrivagoHomePage.PUNCTUATION_FILTER.resolveFor(actor).click();
 		//actor.wasAbleTo(Click.on(TrivagoHomePage.PUNCTUATION_GOOD));		
 	}
 

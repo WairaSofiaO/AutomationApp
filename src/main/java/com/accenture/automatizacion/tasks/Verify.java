@@ -12,7 +12,7 @@ public class Verify implements Task {
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		//Question: Imprimo y comparo valores
-		actor.asksFor(ObtainedResult.at());
+		//actor.asksFor(ObtainedResult.successfully());
 		
 	}
 

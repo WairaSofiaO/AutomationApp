@@ -26,7 +26,7 @@ public class TrivagoHomePage extends PageObject {
 	public static final Target JUST_PRICE = Target.the("Just_Price").locatedBy("//*[@id='mf-select-sortby']/option[@value='2']");
 	public static final Target HOTEL_PRICE = Target.the("Hotel_Price").locatedBy("//div/strong[@class='item__best-price price_min item__best-price--perstay' and @data-log-id='1'][1]");
 	public static final Target HOTEL_NAME = Target.the("Hotel_Name").locatedBy("//*[@itemprop='name'][1]");
-	public static final Target HOTEL_PUNCTUATION = Target.the("Hotel_Punctuation").locatedBy("//*[@class='item-components__pillValue--8c9e4 item-components__value-sm--e53d7 item-components__pillValue--8c9e4'][1]");
+	public static final Target HOTEL_PUNCTUATION = Target.the("Hotel_Punctuation").locatedBy("/html/body/div[3]/main/div/div/div[4]/div/div/div[3]/div[1]/section/ol/li[1]/article/div[1]/div[2]/div/button/span/span[1]/span");
 	//public static final Target HOTEL_PUNCTUATION = Target.the("Hotel_Punctuation").locatedBy("//*[@class='details-paragraph details-paragraph--rating']/em[1]");
 	////*[@class="item-components__pillValue--8c9e4 item-components__value-sm--e53d7 item-components__pillValue--8c9e4"][1]
 	//public static final Target HOTEL_NAME = Target.the("Hotel_Name").locatedBy("//*[@itemprop='name'][1]");
